@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .3s ease-in-out;
+    font-family: 'Cairo', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+.sidebar{
+    width: 30%;
+}
+.sidebar h2{
+    margin-bottom: 45px;
+    font-weight: 500;
+}
+.sidebar h5{
+    font-size: 16px;
+    margin: 10px;
+}
+.sidebar #text, #search{
+    width: 70%;
+    margin: 10px;
+}
+.status input{
+    margin: 10px;
+}
+.container{
+    display: flex;
+}
+.projects{
+    width: 70%;
+    height: 100%;
+    display: block;
+}
+.projects .title{
+    width: 100%;
+}
+.projects .time{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.projects .time .word{
+    display: flex;
+    flex: 1;
+}
+.projects .time h5{
+    margin-left: 20px;
+    color: rgb(119, 119, 119);
+}
+.projects .time button{
+    background-color: #2386C8;
+    border: none;
+    flex: 0.2;
+    padding: 6px;
+}
+button:hover{
+    background-color: #2CABE3;
+}

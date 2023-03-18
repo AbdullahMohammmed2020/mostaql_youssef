@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .3s ease-in-out;
+    font-family: 'Cairo', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+.users{
+    width: 66%;
+}
+.user{
+    width: 100%;
+    background-color: white;
+    height: 270px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.user .user_top{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.user .user_top{
+    justify-content: space-between;
+}
+.user .user_top h3{
+    /* margin-left: 200px; */
+    margin-right: 10px;
+    font-size: 16px;
+}
+.user .user_top button{
+    width: 230px;
+    padding: 4px;
+    background-color: #1e75ae;
+    border: none;
+}
+.user_bot{
+    display: flex;
+    width: 100%;
+}
+.user_bot h6{
+    margin: 5px;
+}
+.user p{
+    margin-top: 15px;
+}
+.scroller{
+    width: 20%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+}
+.scroller div{
+    background-color: white;
+    margin: 1px;
+    padding: 10px;
+    text-align: center;
+}
+.scroller div:hover{
+    background-color: grey;
+}
+button:hover{
+    background-color: #2CABE3;
+}
